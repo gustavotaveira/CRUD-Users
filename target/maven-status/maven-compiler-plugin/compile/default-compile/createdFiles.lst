@@ -1,0 +1,4 @@
+br\com\home\servlet\IniciarEditarUsuarioServlet.class
+br\com\home\servlet\ServletEditarRegistro.class
+br\com\home\Usuario.class
+br\com\home\servlet\ExcluirUsuarioServlet.class
