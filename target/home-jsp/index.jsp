@@ -27,7 +27,7 @@
 		<input id="data_nascimento_id"  class="form-control" type="date" name="data_nascimento" value="Enviar"><br>
 		</div>
 		<input type="submit" class="btn btn-primary"  value="Enviar">
-		<a href="trataform.jsp"><button class="btn btn-default" type="button">Listagem de usuários</button></a>
+		<a href="trataform.jsp"><button class="btn btn-primary" style="float: right" type="button">Usuários cadastrados</button></a>
 	</form>
 	<%@ include file="rodape.jsp"%>
 	</div>

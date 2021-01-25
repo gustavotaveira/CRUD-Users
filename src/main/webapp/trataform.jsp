@@ -74,11 +74,11 @@ map.put("listaUsuarios", listaUsuarios);
 		<td><%=usuario.getSexo()%></td>
 		<td>
 			<div id="div_opcoes" class="row">
-				<div class="col">
+				<div class="col-3">
 					<button type="button" title="Editar usuário" onclick="onClickEditarUsuario(this);" data-toggle="modal" data-target="#myModal" data-id="<%=usuario.getId()%>" data-nome="<%=usuario.getNome()%>" data-email="<%=usuario.getEmail()%>"
 					data-nascimento="<%=usuario.getDataNascimento() %>" data-sexo="<%=usuario.getSexo() %>" class="btn btn-link"><i class="fas fa-edit"></i></button>
 				</div>
-				<div class="col">
+				<div class="col-3">
 					<form action="excluirUsuario">
 						<input name="idUsuario" type="hidden" value="<%=usuario.getId()%>">
 						<button type="submit" title="Excluir usuário" class="btn btn-link"><i class="fas fa-times"></i></button>
